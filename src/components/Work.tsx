@@ -8,7 +8,7 @@ const projects = [
     title: "Kumbhar Bazar",
     category: "E-Commerce Marketplace",
     tools: "HTML, CSS, JavaScript, MySQL/MongoDB, Payment Gateway",
-    image: "/images/express.webp",
+    image: "/images/kumbhar.jpeg",
     link: "https://lnkd.in/eaKHwVDn",
   },
   {
