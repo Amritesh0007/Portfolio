@@ -15,14 +15,14 @@ const projects = [
     title: "ChurnGuard AI",
     category: "AI/ML - Customer Churn Prediction",
     tools: "XGBoost, Scikit-learn, Pandas, NumPy, Matplotlib, Streamlit",
-    image: "/images/javascript.webp",
+    image: "/images/churnai.png",
     link: "https://github.com/Amritesh0007/Customer_Churn_Prediction.git",
   },
   {
     title: "Jasmine Voice Assistant",
     category: "AI Voice Agent",
     tools: "Deepgram API, MURF AI, Edge TTS, Google Gemini, Cohere, PyAudio",
-    image: "/images/node2.webp",
+    image: "/images/jasmine.png",
     link: "https://github.com/Amritesh0007/Jasminee_voiceassistant.git",
   },
   {
