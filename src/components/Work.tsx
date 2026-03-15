@@ -8,7 +8,7 @@ const projects = [
     title: "Kumbhar Bazar",
     category: "E-Commerce Marketplace",
     tools: "HTML, CSS, JavaScript, MySQL/MongoDB, Payment Gateway",
-    image: "/images/kumbhar.jpeg",
+    image: "/images/kumbharbazar.png",
     link: "https://lnkd.in/eaKHwVDn",
   },
   {
@@ -29,7 +29,7 @@ const projects = [
     title: "RED_flag",
     category: "Cybersecurity - Chrome Extension",
     tools: "React, Vite, Tailwind CSS, Node.js, Express, MongoDB, PyTorch",
-    image: "/images/react2.webp",
+    image: "/images/redflag.png",
     link: "https://github.com/Amritesh0007/Red_flag.git",
   },
 ];
