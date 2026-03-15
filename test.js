@@ -1,3 +1,4 @@
+// Test file for event listener logic
 let endListener = false;
 
 clickElement.addEventListener("click", () => {
