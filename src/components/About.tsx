@@ -6,9 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Computer Science Engineering student at VIT-AP (2025-2029) with a strong foundation in AI/ML, Web Development, and Cybersecurity. 
+          Co-Lead of Event Management Team in Entrepreneurship Club, VIT-AP. Passionate about building innovative solutions 
+          that bridge technology and real-world problems. Experienced in Python, C++, Java, JavaScript, and various ML frameworks 
+          like XGBoost, Scikit-learn, Pandas, and NumPy.
         </p>
       </div>
     </div>

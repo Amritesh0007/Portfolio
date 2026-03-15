@@ -1,4 +1,4 @@
-import { SplitText } from "gsap/SplitText";
+import { SplitText } from "gsap-trial/SplitText";
 import gsap from "gsap";
 import { smoother } from "../Navbar";
 
@@ -7,7 +7,7 @@ export function initialFX() {
   smoother.paused(false);
   document.getElementsByTagName("main")[0].classList.add("main-active");
   gsap.to("body", {
-    backgroundColor: "#0b080c",
+    backgroundColor: "#0a0e17",
     duration: 0.5,
     delay: 1,
   });
