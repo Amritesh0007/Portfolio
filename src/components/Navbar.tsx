@@ -2,14 +2,17 @@ import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
-import { ScrollSmoother } from "gsap/ScrollSmoother";
+// import { ScrollSmoother } from "gsap/ScrollSmoother"; // Temporarily disabled for performance testing
 import "./styles/Navbar.css";
 
-gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
-export let smoother: ScrollSmoother;
+gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
+export let smoother: ScrollSmoother | undefined;
 
 const Navbar = () => {
   useEffect(() => {
+    // Temporarily disabled ScrollSmoother for performance testing
+    /*
     smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
@@ -38,6 +41,7 @@ const Navbar = () => {
     window.addEventListener("resize", () => {
       ScrollSmoother.refresh(true);
     });
+    */
   }, []);
   return (
     <>
