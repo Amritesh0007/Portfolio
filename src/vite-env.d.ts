@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
-declare module 'gsap-trial/SplitText' {
+declare module 'gsap/SplitText' {
   export class SplitText {
     constructor(element: unknown, vars?: Record<string, unknown>);
     static create(element: unknown, vars?: Record<string, unknown>): SplitText;
